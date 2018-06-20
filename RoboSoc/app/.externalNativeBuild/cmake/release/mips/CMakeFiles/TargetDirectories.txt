@@ -1,0 +1,3 @@
+/Users/francescobaldisserri/Development/of_v0.9.8_android_release/examples/android/RoboSoc/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/edit_cache.dir
+/Users/francescobaldisserri/Development/of_v0.9.8_android_release/examples/android/RoboSoc/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/rebuild_cache.dir
+/Users/francescobaldisserri/Development/of_v0.9.8_android_release/examples/android/RoboSoc/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/native-lib.dir

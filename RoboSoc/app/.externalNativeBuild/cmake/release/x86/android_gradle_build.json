@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/francescobaldisserri/Development/of_v0.9.8_android_release/examples/android/RoboSoc/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/francescobaldisserri/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/francescobaldisserri/Development/of_v0.9.8_android_release/examples/android/RoboSoc/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_opencv-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "lib_opencv",
+			"buildType" : "release",
+			"output" : "/Users/francescobaldisserri/Development/of_v0.9.8_android_release/examples/android/RoboSoc/app/src/main/jniLibs/x86/libopencv_java3.so",
+			"toolchain" : "3360777023603145041"
+		},
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/francescobaldisserri/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/francescobaldisserri/Development/of_v0.9.8_android_release/examples/android/RoboSoc/app/.externalNativeBuild/cmake/release/x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/francescobaldisserri/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/francescobaldisserri/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I/Developer/OpenCV-android-sdk/sdk/native/jni/include -isystem /Users/francescobaldisserri/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/francescobaldisserri/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/francescobaldisserri/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/francescobaldisserri/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/francescobaldisserri/Development/of_v0.9.8_android_release/examples/android/RoboSoc/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/francescobaldisserri/Development/of_v0.9.8_android_release/examples/android/RoboSoc/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/francescobaldisserri/Development/of_v0.9.8_android_release/examples/android/RoboSoc/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "3360777023603145041"
+		}
+	},
+	"toolchains" : 
+	{
+		"3360777023603145041" : 
+		{
+			"cCompilerExecutable" : "/Users/francescobaldisserri/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/francescobaldisserri/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
